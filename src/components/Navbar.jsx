@@ -10,13 +10,17 @@ const Navbar = () => {
         Pass
         <span className='text-green-700'>OP/&gt;</span>
         </div>
-     <ul>
+     {/* <ul>
       <li className='flex gap-4'>
         <a className='hover:font-bold' href="/">Home</a>
         <a className='hover:font-bold' href="#">About</a>
         <a className='hover:font-bold' href="#">Contact</a>
       </li>  
-      </ul> 
+      </ul>  */}
+      <button className='text-white bg-green-700 my-5 mx-2 rounded-full flex justify-between item-center'>
+        <img className='invert p-1 w-10 mx-2' src="/github.png" alt="github logo" />
+        <span className='font-bold px-2 flex  items-center'>GitHub</span>
+      </button>
       </div>
     </nav>
   )
